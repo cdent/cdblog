@@ -1,0 +1,320 @@
+/* line 17, ../sass/tsblog.scss */
+html {
+  background: rgb(236, 236, 232);
+  font: normal 112.5%/1.65 Georgia, Times, "Times New Roman", serif;
+}
+
+/* line 22, ../sass/tsblog.scss */
+body {
+  background: rgb(236, 236, 232) url('/SiteIcon') no-repeat top left;
+  margin: 0 auto;
+  width: 1140px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  color: #03171e;
+}
+@media only screen and (max-width: 960px) {
+  /* line 22, ../sass/tsblog.scss */
+  body {
+    max-width: 100%;
+  }
+}
+
+/* line 34, ../sass/tsblog.scss */
+h1, h2, h3, h4, h5, h6, .date {
+  font-family: Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin: 0;
+}
+
+/* line 41, ../sass/tsblog.scss */
+#details {
+  width: 345px;
+  position: absolute;
+  color: #03171e;
+  text-align: center;
+  padding: 45px 65px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+@media only screen and (max-width: 960px) {
+  /* line 41, ../sass/tsblog.scss */
+  #details {
+    display: inherit;
+    position: fixed;
+    left: -475px;
+    top: 0;
+    background: #0082af;
+    -webkit-transition: left 0.6s ease;
+    -moz-transition: left 0.6s ease;
+    -o-transition: left 0.6s ease;
+    transition: left 0.6s ease;
+  }
+}
+/* line 58, ../sass/tsblog.scss */
+#details a {
+  color: #03171e;
+  text-decoration: none;
+}
+/* line 63, ../sass/tsblog.scss */
+#details h1 {
+  font-size: 45px;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #f0f4f8;
+}
+/* line 70, ../sass/tsblog.scss */
+#details div {
+  border-bottom: 1px solid #f0f4f8;
+  padding: 2em 0;
+}
+/* line 74, ../sass/tsblog.scss */
+#details div p {
+  margin: 0;
+}
+/* line 79, ../sass/tsblog.scss */
+#details div.links {
+  padding: 25.5px 0;
+}
+/* line 83, ../sass/tsblog.scss */
+#details ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 88, ../sass/tsblog.scss */
+#details ul a {
+  display: block;
+  padding: 0.5em;
+  border-radius: 4px;
+  border: thin solid rgb(236, 236, 232);
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+}
+/* line 96, ../sass/tsblog.scss */
+#details ul a:hover {
+  border: thin solid #f0f4f8;
+}
+/* line 104, ../sass/tsblog.scss */
+#details .sociallinks li {
+  display: inline-block;
+  margin: 0 1em;
+  width: 55px;
+}
+
+/* line 112, ../sass/tsblog.scss */
+#content {
+  width: 665px;
+  margin-left: 475px;
+}
+@media only screen and (max-width: 960px) {
+  /* line 112, ../sass/tsblog.scss */
+  #content {
+    margin: 0 auto;
+  }
+}
+/* line 120, ../sass/tsblog.scss */
+#content a {
+  color: #0082af;
+  text-decoration: none;
+}
+#content a:hover {
+  color: #0082af;
+  text-decoration: underline;
+}
+#content a:visited {
+  color: #008277;
+  text-decoration: underline;
+}
+/* line 125, ../sass/tsblog.scss */
+#content article,
+#content section {
+  background: #f0f4f8;
+  background: rgb(236, 236, 232);
+  border-radius: 8px;
+}
+/* line 130, ../sass/tsblog.scss */
+#content article {
+  padding: 1em;
+  border-bottom: 1px solid #f0f4f8;
+}
+/* line 134, ../sass/tsblog.scss */
+#content article .post-content {
+  margin: 1em 0;
+}
+/* line 138, ../sass/tsblog.scss */
+#content article .tags p {
+  margin: 0;
+  font-weight: bold;
+}
+/* line 142, ../sass/tsblog.scss */
+#content article .tags p a {
+  font-weight: normal;
+}
+/* line 148, ../sass/tsblog.scss */
+#content section {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 45px 0;
+}
+/* line 153, ../sass/tsblog.scss */
+#content section h2 {
+  text-align: center;
+}
+/* line 159, ../sass/tsblog.scss */
+#content .date {
+  font-size: 16px;
+  /* change to ems */
+  color: #0082af;
+}
+/* line 164, ../sass/tsblog.scss */
+#content header {
+  text-align: center;
+}
+/* line 167, ../sass/tsblog.scss */
+#content header h2 a {
+  color: #03171e;
+  text-decoration: none;
+}
+/* line 173, ../sass/tsblog.scss */
+#content h2 {
+  font-size: 36px;
+}
+/* line 178, ../sass/tsblog.scss */
+#content .loadmore {
+  display: block;
+  background: #f0f4f8;
+  background: rgb(236, 236, 232);
+  border-radius: 8px;
+  font-size: 21px;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.post-content blockquote {
+	border-left: 5px solid #ccc;
+	margin-left: 1em;
+	padding-left: 1em;
+}
+
+/* back to the top button */
+/* line 191, ../sass/tsblog.scss */
+#backtotop {
+  position: fixed;
+  bottom: 30px;
+  background: url(//tiddlyspace.com/bags/blog_public/tiddlers/bluearrow.png) no-repeat 50% 50% #329fc6;
+  background: url(//tiddlyspace.com/bags/blog_public/tiddlers/bluearrow.png) no-repeat 50% 50% rgba(240, 244, 248, 0.2);
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #329fc6;
+  color: rgba(240, 244, 248, 0.2);
+  font-size: 36px;
+  border-radius: 8px;
+  margin-left: 310px;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+@media only screen and (max-width: 960px) {
+  /* line 191, ../sass/tsblog.scss */
+  #backtotop {
+    visibility: hidden;
+  }
+}
+/* line 210, ../sass/tsblog.scss */
+#backtotop:after {
+  content: "Back to top";
+  font-size: 12px;
+  position: relative;
+  bottom: -55px;
+  width: 100px;
+  height: 21px;
+  text-transform: uppercase;
+}
+/* line 220, ../sass/tsblog.scss */
+#backtotop:hover {
+  cursor: pointer;
+  background-color: #72d1f3;
+  background-color: rgba(240, 244, 248, 0.4);
+  color: #72d1f3;
+  color: rgba(240, 244, 248, 0.4);
+}
+
+/* Rules to make tw output look respectable */
+/* line 230, ../sass/tsblog.scss */
+#content .post-content {
+  word-wrap: break-word;
+}
+/* line 234, ../sass/tsblog.scss */
+#content .post-content div img {
+  max-width: 100%;
+}
+/* line 237, ../sass/tsblog.scss */
+#content .post-content div h1, #content .post-content div h2 {
+  margin: 1em 0 0.6em;
+}
+/* line 240, ../sass/tsblog.scss */
+#content .post-content div h1 {
+  font-size: 24px;
+}
+/* line 243, ../sass/tsblog.scss */
+#content .post-content div h2 {
+  font-size: 21px;
+  text-transform: none;
+}
+/* line 247, ../sass/tsblog.scss */
+#content .post-content div br {
+  display: none;
+}
+/* line 250, ../sass/tsblog.scss */
+#content .post-content div ul {
+  margin: 0;
+}
+/* line 255, ../sass/tsblog.scss */
+#content .post-content h2 {
+  font-size: 27px;
+}
+
+/* Checkbox hack */
+/* line 261, ../sass/tsblog.scss */
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  opacity: 0;
+}
+@media only screen and (max-width: 960px) {
+  /* line 268, ../sass/tsblog.scss */
+  input[type=checkbox]:checked ~ #details {
+    left: 0;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  /* line 273, ../sass/tsblog.scss */
+  input[type=checkbox]:checked ~ .links, input[type=checkbox]:checked ~ .sociallinks {
+    display: block;
+  }
+}
+
+/* line 279, ../sass/tsblog.scss */
+label {
+  display: none;
+  z-index: 1000;
+  background: #0082af;
+  color: #f0f4f8;
+  padding: 0.5em 0.75em;
+  border-bottom-right-radius: 4px;
+}
+@media only screen and (max-width: 960px) {
+  /* line 279, ../sass/tsblog.scss */
+  label {
+    display: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
